@@ -13,7 +13,7 @@ public class CreadorBus extends CreadorAuto{
 
     @Override
     public Auto crearAuto() {
-        return new Bus();
+        return new Bus(null,null);
     }
     
 }

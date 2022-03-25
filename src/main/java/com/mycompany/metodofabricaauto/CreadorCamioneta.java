@@ -13,7 +13,7 @@ public class CreadorCamioneta extends CreadorAuto{
 
     @Override
     public Auto crearAuto() {
-        return new Camioneta();
+        return new Camioneta(null,null);
     }
     
 }

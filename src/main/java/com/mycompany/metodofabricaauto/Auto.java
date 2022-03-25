@@ -17,5 +17,27 @@ public abstract class Auto {
     
     public abstract void arrancar();
     public abstract void frenar();
+
+    public Auto(Color color, String marca) {
+        this.color = color;
+        this.marca = marca;
+    }
+    
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    
     
 }
