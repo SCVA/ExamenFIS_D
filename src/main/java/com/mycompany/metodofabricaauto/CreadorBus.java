@@ -12,7 +12,7 @@ package com.mycompany.metodofabricaauto;
 public class CreadorBus extends CreadorAuto{
 
     @Override
-    protected Auto crearAuto() {
+    public Auto crearAuto() {
         return new Bus();
     }
     
